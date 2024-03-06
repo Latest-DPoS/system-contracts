@@ -13,7 +13,7 @@ contract Params {
         public constant ProposalAddr = 0x000000000000000000000000000000000000F002;
 
     // System params
-    uint16 public constant MaxValidators = 21;
+    uint16 public constant MaxValidators = 500;
     // Validator have to wait StakingLockPeriod blocks to withdraw staking
     uint64 public constant StakingLockPeriod = 86400;
     // Validator have to wait WithdrawProfitPeriod blocks to withdraw his profits
